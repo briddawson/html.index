@@ -1,0 +1,230 @@
+/* CSS INDEX */
+
+/* BACKGROUND SECTION */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* HEADER SECTION */
+
+/* Styling */
+header {
+  background-color: #333;  
+  padding: 20px;
+  text-align: center;
+  color: #fff;  
+}
+
+/* Styling the header heading */
+.header-heading {
+  font-family: 'Baskerville', sans-serif;  
+  font-size: 36px;  
+  font-weight: bold;  
+  color: white;  
+  margin: 0;  
+}
+header {
+    background: #333;
+background-image: url('Images/kids.jpeg'); 
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center; 
+}
+
+
+/* NAVIGATION SECTION */
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #555;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #777;
+}
+
+/* CONTENT SECTION */
+
+
+main {
+    padding: 2rem;
+    text-align: center;
+    background-image: url('Images/br1.avif');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    color: #333; 
+}
+
+
+.custom-text {
+  background-color: white;  
+  font-family: 'Metro', sans-serif; 
+  font-size: 18px; 
+  color: #4d4d4d;  
+  padding: 10px;  
+  border-radius: 5px; 
+}
+
+h1 { font-size: 2rem; }
+
+/* Style for each category */
+.category {
+  margin-bottom: 20px;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Label for each category */
+.label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Style for the progress bar */
+.progress-bar {
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+}
+
+/* Styling for the donate box */
+.donate-box {
+  background-color: #ffffff;  
+  border: 2px solid #ddd;  
+  padding: 20px;
+  border-radius: 10px;  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+}
+
+/* Styling for the "Donate Now!" button */
+.donate-button {
+  display: inline-block;
+  background-color: #ff5733;  
+  color: #fff;  
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;  
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the "Donate Now!" button */
+.donate-button:hover {
+  background-color: #e74c3c; 
+}
+
+/* Styling for the volunteer box */
+.volunteer-box {
+  background-color: #ffffff;  
+  border: 2px solid #ddd;  
+  padding: 20px;
+  border-radius: 10px;  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+}
+
+/* Styling for the "Volunteer Now!" button */
+.volunteer-button {
+  display: inline-block;
+  background-color: #28a745;  
+  color: #fff;  /
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;  
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the "Volunteer Now!" button */
+.volunteer-button:hover {
+  background-color: #218838;  
+}
+
+
+
+.gallery-container {
+  width: 80%;                       
+  margin: 0 auto;                  
+  overflow: hidden;                
+  position: relative;           
+}
+
+/* General styles for the gallery */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: flex; /* Use Flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping of items to next line */
+  gap: 16px; /* Space between images */
+  padding: 20px;
+  justify-content: space-between; /* Distribute items with equal space */
+}
+
+.gallery-item {
+  width: calc(33.333% - 16px); /* Each image takes up 1/3rd of the width minus the gap */
+  overflow: hidden; /* Prevent images from overflowing their container */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.gallery-item img {
+  width: 100%; /* Ensure images fill their container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove bottom space (gap) under images */
+  border-radius: 8px; /* Optional: rounded corners for images */
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+/* Hover effect for images */
+.gallery-item:hover img {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+
+
+/* FOOTER SECTION */
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+main {
+    padding-bottom: 60px; 
+}
